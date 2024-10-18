@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { Spotlight } from './ui/spotlight.tsx'
+import { Spotlight } from './ui/Spotlight.tsx'
 import { Button } from './ui/moving-border.tsx'
 
 const HeroSection = () => {

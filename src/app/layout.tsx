@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar.tsx";
+import { HeroHighlightDemo } from "@/components/HeroHighlightDemo.tsx";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,12 +31,14 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* // * Navbar */}
+        
         <div className="relative w-full flex items-center justify-center">
             <Navbar className="top-6" />
         </div>
         
         {children}
-        
+
+        <HeroHighlightDemo />
       </body>
     </html>
   );
