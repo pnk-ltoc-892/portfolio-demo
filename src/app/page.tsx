@@ -1,5 +1,6 @@
 import FeaturedSection from "@/components/FeaturedSection.tsx";
 import HeroSection from "@/components/HeroSection.tsx";
+import { WhyChooseUs } from "@/components/WhyChooseUs.tsx";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
 
       {/* // Featured Section */}
       <FeaturedSection />
+
+      {/* // Stcky Scroll Section */}
+      <WhyChooseUs />
 
 
     </main>
