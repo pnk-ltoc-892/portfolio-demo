@@ -1,4 +1,5 @@
 import FeaturedSection from "@/components/FeaturedSection.tsx";
+import Footer from "@/components/Footer.tsx";
 import HeroSection from "@/components/HeroSection.tsx";
 import InstructorSection from "@/components/InstructorSection.tsx";
 import { MusicSchoolTestimonials } from "@/components/MusicSchoolTestimonials.tsx";
@@ -26,6 +27,9 @@ export default function Home() {
 
       {/* // Instructor Section */}
       <InstructorSection />
+
+      {/* // Footer Section */}
+      <Footer />
 
     </main>
     
