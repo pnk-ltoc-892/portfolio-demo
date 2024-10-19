@@ -1,5 +1,5 @@
+import FeaturedSection from "@/components/FeaturedSection.tsx";
 import HeroSection from "@/components/HeroSection.tsx";
-
 
 export default function Home() {
   return (
@@ -7,6 +7,9 @@ export default function Home() {
       
       {/* // Hero Section */}
       <HeroSection />
+
+      {/* // Featured Section */}
+      <FeaturedSection />
 
 
     </main>
