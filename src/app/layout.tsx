@@ -32,9 +32,7 @@ export default function RootLayout({
       >
         {/* // * Navbar */}
         
-        <div className="relative w-full flex items-center justify-center">
-            <Navbar className="top-6" />
-        </div>
+        
         
         {children}
 

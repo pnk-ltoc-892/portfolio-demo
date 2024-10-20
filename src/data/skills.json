@@ -1,0 +1,159 @@
+{
+    "skills":[
+        {
+            "id": 1,
+            "title": "HTML",
+            "icon": "https://skillicons.dev/icons?i=html"
+        },
+        {
+            "id": 2,
+            "title": "CSS",
+            "icon": "https://skillicons.dev/icons?i=css"
+        },
+        {
+            "id": 3,
+            "title": "JavaScript",
+            "icon": "https://skillicons.dev/icons?i=js"
+        },
+        {
+            "id": 3,
+            "title": "TypeScript",
+            "icon": "https://skillicons.dev/icons?i=ts"
+        },
+        {
+            "id": 4,
+            "title": "Tailwind CSS",
+            "icon": "https://skillicons.dev/icons?i=tailwind"
+        },
+        {
+            "id": 5,
+            "title": "React Js",
+            "icon": "https://skillicons.dev/icons?i=react"
+        },
+        {
+            "id": 6,
+            "title": "Next Js",
+            "icon": "https://skillicons.dev/icons?i=nextjs"
+        },
+        {
+            "id": 7,
+            "title": "Node Js",
+            "icon": "https://skillicons.dev/icons?i=nodejs"
+        },
+        {
+            "id": 8,
+            "title": "VS Code",
+            "icon": "https://skillicons.dev/icons?i=vscode"
+        },
+        {
+            "id": 9,
+            "title": "Python",
+            "icon": "https://skillicons.dev/icons?i=py"
+        },
+        {
+            "id": 10,
+            "title": "Prisma",
+            "icon": "https://skillicons.dev/icons?i=prisma"
+        },
+        {
+            "id": 11,
+            "title": "Postman",
+            "icon": "https://skillicons.dev/icons?i=postman"
+        },
+        {
+            "id": 12,
+            "title": "PostGres SQL",
+            "icon": "https://skillicons.dev/icons?i=postgres"
+        },
+        {
+            "id": 13,
+            "title": "npm",
+            "icon": "https://skillicons.dev/icons?i=npm"
+        },
+        {
+            "id": 14,
+            "title": "My SQL",
+            "icon": "https://skillicons.dev/icons?i=mysql"
+        },
+        {
+            "id": 15,
+            "title": "MongoDB",
+            "icon": "https://skillicons.dev/icons?i=mongodb"
+        },
+        {
+            "id": 16,
+            "title": "Material UI",
+            "icon": "https://skillicons.dev/icons?i=materialui"
+        },
+        {
+            "id": 17,
+            "title": "Kubernetes",
+            "icon": "https://skillicons.dev/icons?i=kubernetes"
+        },
+        {
+            "id": 18,
+            "title": "Java",
+            "icon": "https://skillicons.dev/icons?i=java"
+        },
+        {
+            "id": 19,
+            "title": "Git",
+            "icon": "https://skillicons.dev/icons?i=git"
+        },
+        {
+            "id": 20,
+            "title": "Github",
+            "icon": "https://skillicons.dev/icons?i=github"
+        },
+        {
+            "id": 21,
+            "title": "Firebase",
+            "icon": "https://skillicons.dev/icons?i=firebase"
+        },
+        {
+            "id": 22,
+            "title": "Express",
+            "icon": "https://skillicons.dev/icons?i=express"
+        },
+        {
+            "id": 23,
+            "title": "Figma",
+            "icon": "https://skillicons.dev/icons?i=figma"
+        },
+        {
+            "id": 24,
+            "title": "Docker",
+            "icon": "https://skillicons.dev/icons?i=docker"
+        },
+        {
+            "id": 25,
+            "title": "Django",
+            "icon": "https://skillicons.dev/icons?i=django"
+        },
+        {
+            "id": 26,
+            "title": "C++",
+            "icon": "https://skillicons.dev/icons?i=cpp"
+        },
+        {
+            "id": 27,
+            "title": "C",
+            "icon": "https://skillicons.dev/icons?i=c"
+        },
+        {
+            "id": 28,
+            "title": "App Write",
+            "icon": "https://skillicons.dev/icons?i=appwrite"
+        },
+        {
+            "id": 29,
+            "title": "Vercel",
+            "icon": "https://skillicons.dev/icons?i=vercel"
+        },
+        {
+            "id": 30,
+            "title": "Redis",
+            "icon": "https://skillicons.dev/icons?i=redis"
+        }
+    ]
+}
