@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 700 */
+
+* {
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+}
 
 :root {
   --background: #ffffff;

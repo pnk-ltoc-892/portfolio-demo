@@ -1,13 +1,13 @@
 
+import { SkillsHeroSection } from "@/components/SkillsHeroSection";
 import SkillSection from "@/components/SkillSection.tsx";
 
 
 export default function Home() {
     return (
-        <main className="min-h-screen bg-black/[0.96] antialiased">
+        <main className="antialiased ">
             {/* // Featured Section */}
-            <SkillSection />
+            <SkillsHeroSection children={<SkillSection />}/>
         </main>
-
     );
 }

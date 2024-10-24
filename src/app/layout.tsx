@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar.tsx";
-import { HeroHighlightDemo } from "@/components/HeroHighlightDemo.tsx";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,7 +35,7 @@ export default function RootLayout({
         
         {children}
 
-        <HeroHighlightDemo />
+        {/* <HeroHighlightDemo /> */}
       </body>
     </html>
   );
