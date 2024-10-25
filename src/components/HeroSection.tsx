@@ -40,7 +40,6 @@ const HeroSection = () => {
             />
 
             <div className="p-4 max-w-[70rem] flex flex-col justify-center items-center mx-auto relative z-10 w-full pt-20 md:pt-0">
-
                 <span className='text-5xl font-bold'>Hi</span>
                 <div className='mx-8'>
                     <TypewriterEffectSmooth words={words} />
@@ -48,13 +47,6 @@ const HeroSection = () => {
                 <div>
                     <TextGenerateEffect words={intro} />
                 </div>
-
-                {/* <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-                    Spotlight effect is a great way to draw attention to a specific part
-                    of the page. Here, we are drawing the attention towards the text
-                    section of the page. I don&apos;t know why but I&apos;m running out of
-                    copy.
-                </p> */}
             </div>
         </div>
     );
