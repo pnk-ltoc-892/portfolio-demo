@@ -3,12 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* // <uniquifier>: Use a unique and descriptive class name */
-/* // <weight>: Use a value from 100 to 700 */
 
 * {
   font-family: "Arima", system-ui;
   font-optical-sizing: auto;
+  @apply !scroll-smooth;
 }
 
 :root {
@@ -26,7 +25,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {

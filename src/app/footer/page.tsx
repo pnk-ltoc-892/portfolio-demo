@@ -1,5 +1,5 @@
 
-import ContactSection from '@/components/finalized/components/ContactSection.jsx'
+import ContactSection from '@/components/finalized/components/ContactSection.tsx'
 import { LinkPreview } from '@/components/finalized/ui/link-preview.tsx'
 import React from 'react'
 
@@ -17,7 +17,6 @@ const page = () => {
                         <span className='text-purple-600'>Aceternity UI</span> 
                     </LinkPreview>{" "}
                 </p>
-                
             </div>
         </main>
     )

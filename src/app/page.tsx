@@ -7,12 +7,13 @@ import Navbar from "@/components/Navbar.tsx";
 import UpcomingWebinars from "@/components/UpcomingWebinars.tsx";
 import { WhyChooseUs } from "@/components/WhyChooseUs.tsx";
 
+
 export default function Home() {
   return (
     <>
-      <div className="relative w-full flex items-center justify-center">
+      {/* <div className="relative w-full flex items-center justify-center">
             <Navbar className="top-6" />
-      </div>
+      </div> */}
     
     <main className="min-h-screen bg-black/[0.96] antialiased">
       
