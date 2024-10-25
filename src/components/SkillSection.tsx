@@ -22,17 +22,17 @@ const SkillSection = () => {
 
             <div className='mt-10'>
                 {/* <div className='px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-center mx-auto'> */}
-                <div className='px-16 flex flex-wrap gap-6 justify-center mx-auto'>
+                <div className='px-20 flex flex-wrap gap-6 justify-center mx-auto'>
                     {
                         skillData.skills.map((skill: Skill, index) => (
                             <div key={index} className='flex justify-center hover:scale-105 hover:translate-x-2 transition-all duration-200'>
                                 <BackgroundGradient
                                     className="flex flex-col rounded-full bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
-                                    <div className="px-6 py-3 flex items-center justify-center gap-4">
+                                    <div className="px-4 py-2 flex items-center justify-center gap-4">
                                         <img src={skill.icon} alt="" 
-                                        className='h-10 w-10'
+                                        className='h-8 w-8'
                                         />
-                                        <p className="text-2xl sm:text-2xl font-semibold text-black dark:text-neutral-200">{skill.title}</p>
+                                        <p className="text-lg sm:text-xl font-semibold text-black dark:text-neutral-200">{skill.title}</p>
                                     </div>
                                 </BackgroundGradient>
                             </div>

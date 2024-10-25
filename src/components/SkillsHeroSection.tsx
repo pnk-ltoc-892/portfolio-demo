@@ -19,7 +19,7 @@ export function SkillsHeroSection({children}:{children: React.ReactNode}) {
                     duration: 0.5,
                     ease: [0.4, 0.0, 0.2, 1],
                 }}
-                className="py-16 text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white h-full leading-relaxed lg:leading-snug text-center mx-auto"
+                className="py-16 pt-8 text-2xl px-8 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white h-full leading-relaxed lg:leading-snug text-center mx-auto"
             >
                 <div>
                     {children}
