@@ -61,7 +61,7 @@ export const FloatingNav = ({
                 )}
             >
                 {navItems.map((navItem: any, idx: number) => (
-                    <Link
+                    <a
                         key={`link=${idx}`}
                         href={navItem.link}
                         className={cn(
@@ -70,7 +70,7 @@ export const FloatingNav = ({
                     >
                         <span className="block sm:hidden">{navItem.icon}</span>
                         <span className="hidden sm:block text-lg">{navItem.name}</span>
-                    </Link>
+                    </a>
                 ))}
                 <button className="border text-lg font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
                     <span>Resume</span>

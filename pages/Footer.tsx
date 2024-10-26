@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <main>
+        <main id='contact'>
             <ContactSection />
             <div className='mt-18 border-t border-t-white bg-black w-full py-8'>
             <p className="text-white tracking-wide font-semibold text-center text-3xl ">
